@@ -1,0 +1,16 @@
+:root {
+    /* Color styles */
+--jaune-pale: rgba(233, 194, 110, 1);
+--noir: rgba(0, 0, 0, 1);
+--orange: rgba(245, 155, 18, 1);
+--gris-clair: rgba(196, 196, 196, 1);
+--bleu-foncé: rgba(5, 43, 70, 1);
+
+/* Text-size styles */
+--titre-1: 24px;
+--content: 14px;
+--sous-titre: 22px;
+
+
+
+}

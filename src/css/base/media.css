@@ -1,0 +1,29 @@
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+figure {
+  margin: 0;
+}
+
+figcaption {
+  color: var(--noir);
+  font-size: var(--content);
+}
+  
+.maincss>img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: .35;
+  /*  z-index: -1;*/
+}
+.logo>img {
+    position: relative;
+    margin-top: 10px;
+    z-index: 1;
+    width: 40px;
+}

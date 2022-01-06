@@ -1,0 +1,87 @@
+#layer6 {width:80px;height:150px;border-right:1px solid black;}
+#layer8 {width:80px;height:40px;border-right:1px solid black;}
+#layer12 {width:80px;height:20px;border-right:1px ;}
+#layer11 {width:150px;height:180px;border-right:1px solid black;}
+
+.header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    min-height: 80px;
+    top: 0;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .header__start {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .header__end {
+      width:  70px;
+      margin-top: 20px;
+      height: 30px;
+      margin-right: 10px;
+      z-index: 1;
+  }
+
+.header__search {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: inherit;
+    width: 80px;
+  }
+
+.logodusite {
+  margin-left: 5%;
+  margin-right: 80%;
+  width: 10%;
+  margin-bottom: 10%;
+}
+.headercontact {
+  background-color: orange; 
+  font-family: 'Redressed', sans-serif;
+  text-align: center;
+}
+.flècheretour {
+  margin-right: 80%;
+  margin-left: 0%;
+}
+
+.article1 {
+  background-color:rgb(248, 238, 130);
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+p {
+  margin-top: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: left;
+  margin-bottom: 20%;
+}
+
+/* Logo sur la page d'accueil */ 
+
+.logo_accueil {
+  margin-left: 190px;
+  margin-top: 20px;
+}
+
+.img h2>a {
+  color: white;
+}
+
+.img h2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}

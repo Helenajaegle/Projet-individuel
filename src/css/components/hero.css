@@ -1,0 +1,40 @@
+
+.hero__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    width: 100%; 
+    height: 80vh; 
+  }
+  .hero__header {
+      height: 80vh;
+      color: var(--gray-white);
+      display: flex;
+      flex-direction: column;
+      justify-self: flex-end;
+      padding-bottom: var(--space4x);
+  }
+  .hero__subtitle {
+      font-family: var(--font-sans-serif);
+      font-size: var(--tewt-sm);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: bold;
+  }
+  .chapo {
+      display: flex;
+      gap: var(--space2x);
+      text-align: center;
+  }
+  .chapo__title {
+      flex: 1; 
+  }
+  .nononon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+

@@ -56,11 +56,8 @@
   margin-left: 0%;
 }
 
-.article1 {
-  background-color:rgb(248, 238, 130);
-  font-size: 15px;
-  text-align: center;
-  margin-bottom: 5px;
+.degrade_articles {
+  
 }
 p {
   margin-top: 10%;
@@ -84,4 +81,14 @@ p {
 .img h2 {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+h1 {
+  color: white;
+  margin-top: -170px;
+  display: flex;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+ 
 }

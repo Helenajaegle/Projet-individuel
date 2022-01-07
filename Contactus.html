@@ -4,38 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contatcus</title>
+    <link rel="stylesheet" href="src/css/style.css"/>
+    <title>Nous contacter</title>
 </head>
+<body class="contact">
+    
+
 <header>
-    <div class="article1">
-        <a href="menu.html">
-        <div class="menunoir">
-            <img src="Public/img/Icones/menu-open noir.png" alt="icone de menu">
+    <header>
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
         </div>
-        </a>
-        <a href="index.html">
-            <img src="Public/img/Icones/Logo.png" alt="Logo du site">
-        </a>
-    </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="">ACTUS EGYPTE <br> FEM</a></li> 
+            <li>MENU</li>
+            <li><a href="index.html">ACCUEIL</a></li>
+            <li><a href="Article1.html">NAWAL EL SAADAWI</a></li>
+            <li><a href="Article2.html">MOZN HASSAN</a></li>
+            <li><a href="Article3.html">MICHELLE PERROT</a></li>
+            <li><a href="Frise.html">FRISE DU FÉMINISME</a></li>
+            <li><a href="Galerie.html">GALERIE DES FIGURES FÉMINISTES</a></li>
+            <li><a href="Glossaire.html">GLOSSAIRE</a></li>
+          </ul>
+        </nav>
+        <header class="header">
+          <div class="headerstart">
+            <h1>Actus Egypte Fem</h1>
+          </div>
+
+</div></a>
 </header>
 <body>
-    <button>
-        <a href="menuen.html">
-    <img src="Public/img/Icones/flèche retour.png" alt="Flèche retour">
-    </a>
-    </button>
-    <h1>News Egypt Fem</h1>
-    <p>Héléna Jaegle B1 
-        19 Av. du Maréchal Juin, 90016 Belfort
-        Tel : 07 67 48 57 88 
-    Mail : helena.jaeglee@gmail.com </p>
-    <h4>How can we help you ? </h4>
-    <p>FIRST NAME</p>
-    <p>LAST NAME</p>
-    <p>EMAIL</p>
-    <p>TELL US MORE</p>
-    <button>
-    <img src="Public/img/Icones/SEND.png" alt="Bouton envoyer">
-    </button>
-    </body>
+    <div class="autres_projets">
+        <h3>Contact me</h3>
+    </div>
+    <div id="titrecontact">
+        <h4>How can we help you ?  </h4>
+    </div>
+    <form action="#">
+        <div>
+            <label for="first_name">FIRST NAME</label>
+            <input name="first_name" id="first_name" type="text" required>
+        </div>
+            
+        <div>
+            <label for="last_name">LAST NAME</label>
+            <input name="last_name" id="last_name" type="text">
+        </div>
+
+        <div>
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" placeholder="ex : myname@example.com" required>
+        </div>
+            
+        <div>
+            <label for="message">TELL US MORE</label>
+            <textarea name="message" id="message" rows="7" required></textarea>
+        </div> 
+    </form>
+    <div id="coordonnées">
+        <p>Héléna Jaegle B1 <br> 19 Av. du Maréchal Juin, 90016 Belfort <br> Tel : 07 67 48 57 88 <br> Mail : helena.jaeglee@gmail.com</p>
+    </div>
+</body>
 </html>

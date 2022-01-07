@@ -96,10 +96,10 @@ h1 {
 /* bouton pour changer de langue */ 
 
 .bouton_fr {
-   position: relative;
+   position: fixed;
     z-index: 1;
     width: 60px;
     display: flex;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 32px;
+    margin-left: 25px;
 }

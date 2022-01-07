@@ -92,3 +92,14 @@ h1 {
   margin-left: 10px;
  
 }
+
+/* bouton pour changer de langue */ 
+
+.bouton_fr {
+   position: relative;
+    z-index: 1;
+    width: 60px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}

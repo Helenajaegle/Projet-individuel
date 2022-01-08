@@ -290,7 +290,7 @@ textarea {
   width: 300px;
 }
 
-/* carrousel */ 
+/* carrousel autres projets */ 
 
 .images155 {
   width: 1000px;
@@ -316,13 +316,30 @@ textarea {
   margin-top: -20px;
 }
 
-/* pour mettre le dégradé */ 
+/* carrousel frise */ 
 
-.degrade_articles {
-  background-image: linear-gradient( white, black);
-  z-index: -1;
+.images155 {
   width: 375px;
-  height: 200px;
+  height: 1000px;
+  left: 0; 
+}
+
+.image155 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 832px;
+}
+
+.carrousel6 {
+  width: 375px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 0px;
+  margin-bottom: 50px;
+  margin-top: -10px;
 }
 
 /* texte de la page à propos */ 
@@ -380,3 +397,18 @@ textarea {
 .apropos_titre>h1 {
   margin-left: 95px;
 }
+
+/* créer des marges pour le contenu des articles */ 
+
+.content_articles {
+  margin-left: 20px;
+  margin-right: 20px; 
+}
+
+/* taille des légendes */ 
+
+.legende_photo>p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+

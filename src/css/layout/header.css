@@ -83,7 +83,7 @@ p {
 
 h1 {
   color: rgb(255, 255, 255);
-  margin-top: -90px;
+  margin-top: -40px;
   display: block;
   text-align: center;
   margin-right: 10px;
@@ -110,4 +110,12 @@ h1 {
   position: fixed;
   width: 374px;
   z-index: 999;
+}
+
+/* layer pour la page à propos */ 
+
+.layerr {
+  width: 200px;
+  height: 200px;
+  background-color: black;
 }

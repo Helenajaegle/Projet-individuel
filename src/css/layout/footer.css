@@ -13,6 +13,8 @@ footer h5 {
     color: black; 
     font-family: 'Red Hat Display', sans-serif;
     font-size: 20px;
+    margin-right: 90px;
+    margin-left: 10px;
 }
 footer #layer7 h5 {
     padding-top: 20px;

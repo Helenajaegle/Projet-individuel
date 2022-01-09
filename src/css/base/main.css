@@ -320,8 +320,9 @@ textarea {
 
 .images155 {
   width: 375px;
-  height: 1000px;
+  height: 200px;
   left: 0; 
+  margin-bottom: -10px;
 }
 
 .image155 {
@@ -330,11 +331,12 @@ textarea {
   left: 0;
   width: 375px;
   height: 832px;
+  margin-bottom: -10px;
 }
 
 .carrousel6 {
   width: 375px;
-  height: 350px;
+  height: -2px;
   overflow: hidden;
   position: relative;
   margin-left: 0px;

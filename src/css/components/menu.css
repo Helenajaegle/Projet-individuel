@@ -106,11 +106,12 @@
   content: '';
     position: absolute;
     top: -330px;
-    left: -72px;
+    left: -103px;
     width: 453px;
-    height: 456px;
+    height: 445px;
     border-radius: 245px;
     background-color: #F59B12;
+    margin-top: -14px;
 }
 .menu li:nth-of-type(2) {
   font-family: Montserrat;
@@ -193,6 +194,7 @@
 
 .menu a {
   text-decoration: none;
+  margin-left: -20px;
 }
 
 .logo {

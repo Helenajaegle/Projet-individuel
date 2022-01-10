@@ -425,10 +425,19 @@ textarea {
 /* vidéo */ 
 
 .video {
-  width: 75vw;
+  width: 85vw;
   border-radius: 20px;
   position: relative;
-  left: 12.5vw;
+  left: 25px;
   margin-bottom: 20px;
   margin-top: 50px;
+}
+
+/* légende vidéo */ 
+
+.legende_video>p {
+  font-size: 15px;
+  font-style: italic;
+  margin-left: 32px;
+  margin-top: -10px;
 }

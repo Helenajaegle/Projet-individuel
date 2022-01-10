@@ -421,3 +421,14 @@ textarea {
   margin-left: 120px;
   margin-top: 30px;
 }
+
+/* vidéo */ 
+
+.video {
+  width: 75vw;
+  border-radius: 20px;
+  position: relative;
+  left: 12.5vw;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}

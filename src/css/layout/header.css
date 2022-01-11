@@ -110,6 +110,7 @@ h1 {
   position: fixed;
   width: 374px;
   z-index: 999;
+  width: 100px;
 }
 
 /* layer pour la page à propos */ 

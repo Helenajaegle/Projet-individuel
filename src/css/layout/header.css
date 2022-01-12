@@ -108,9 +108,8 @@ h1 {
   background-color: white;
   color: white;
   position: fixed;
-  width: 374px;
-  z-index: 999;
   width: 375px;
+  z-index: 999;
 }
 
 /* layer pour la page à propos */ 
